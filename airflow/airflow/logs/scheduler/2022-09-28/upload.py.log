@@ -1,0 +1,60 @@
+[2022-09-28 08:05:27,291] {processor.py:163} INFO - Started process (PID=47) to work on /opt/airflow/dags/upload.py
+[2022-09-28 08:05:27,322] {processor.py:642} INFO - Processing file /opt/airflow/dags/upload.py for tasks to queue
+[2022-09-28 08:05:27,336] {logging_mixin.py:109} INFO - [2022-09-28 08:05:27,336] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upload.py
+[2022-09-28 08:05:29,628] {logging_mixin.py:109} INFO - [2022-09-28 08:05:29,598] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/upload.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/upload.py", line 40, in <module>
+    gcp_conn_id= PROJECT_ID
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/transfers/local_to_gcs.py", line 89, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 177, in apply_defaults
+    raise AirflowException(msg)
+airflow.exceptions.AirflowException: Argument ['task_id'] is required
+[2022-09-28 08:05:29,714] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/upload.py
+[2022-09-28 08:05:29,743] {processor.py:171} INFO - Processing /opt/airflow/dags/upload.py took 2.456 seconds
+[2022-09-28 08:05:59,941] {processor.py:163} INFO - Started process (PID=76) to work on /opt/airflow/dags/upload.py
+[2022-09-28 08:05:59,960] {processor.py:642} INFO - Processing file /opt/airflow/dags/upload.py for tasks to queue
+[2022-09-28 08:05:59,961] {logging_mixin.py:109} INFO - [2022-09-28 08:05:59,961] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upload.py
+[2022-09-28 08:06:00,648] {logging_mixin.py:109} INFO - [2022-09-28 08:06:00,626] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/upload.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/upload.py", line 40, in <module>
+    gcp_conn_id= PROJECT_ID
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/transfers/local_to_gcs.py", line 89, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 177, in apply_defaults
+    raise AirflowException(msg)
+airflow.exceptions.AirflowException: Argument ['task_id'] is required
+[2022-09-28 08:06:00,686] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/upload.py
+[2022-09-28 08:06:00,719] {processor.py:171} INFO - Processing /opt/airflow/dags/upload.py took 0.784 seconds
+[2022-09-28 08:06:31,585] {processor.py:163} INFO - Started process (PID=106) to work on /opt/airflow/dags/upload.py
+[2022-09-28 08:06:31,586] {processor.py:642} INFO - Processing file /opt/airflow/dags/upload.py for tasks to queue
+[2022-09-28 08:06:31,588] {logging_mixin.py:109} INFO - [2022-09-28 08:06:31,588] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/upload.py
+[2022-09-28 08:06:31,962] {logging_mixin.py:109} INFO - [2022-09-28 08:06:31,956] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/upload.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/upload.py", line 40, in <module>
+    gcp_conn_id= PROJECT_ID
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 188, in apply_defaults
+    result = func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/google/cloud/transfers/local_to_gcs.py", line 89, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 177, in apply_defaults
+    raise AirflowException(msg)
+airflow.exceptions.AirflowException: Argument ['task_id'] is required
+[2022-09-28 08:06:31,978] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/upload.py
+[2022-09-28 08:06:31,989] {processor.py:171} INFO - Processing /opt/airflow/dags/upload.py took 0.408 seconds

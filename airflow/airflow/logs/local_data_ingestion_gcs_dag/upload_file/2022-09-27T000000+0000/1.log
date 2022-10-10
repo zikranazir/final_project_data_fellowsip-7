@@ -1,0 +1,22 @@
+[2022-09-28 02:20:46,177] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_data_ingestion_gcs_dag.upload_file scheduled__2022-09-27T00:00:00+00:00 [queued]>
+[2022-09-28 02:20:46,251] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: local_data_ingestion_gcs_dag.upload_file scheduled__2022-09-27T00:00:00+00:00 [queued]>
+[2022-09-28 02:20:46,254] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-28 02:20:46,258] {taskinstance.py:1239} INFO - Starting attempt 1 of 2
+[2022-09-28 02:20:46,260] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-09-28 02:20:46,377] {taskinstance.py:1259} INFO - Executing <Task(LocalFilesystemToGCSOperator): upload_file> on 2022-09-27 00:00:00+00:00
+[2022-09-28 02:20:46,409] {standard_task_runner.py:52} INFO - Started process 78 to run task
+[2022-09-28 02:20:46,417] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'local_data_ingestion_gcs_dag', 'upload_file', 'scheduled__2022-09-27T00:00:00+00:00', '--job-id', '164', '--raw', '--subdir', 'DAGS_FOLDER/upload_to_gcs.py', '--cfg-path', '/tmp/tmp0b5wcj9q', '--error-file', '/tmp/tmpkfihbxv_']
+[2022-09-28 02:20:46,453] {standard_task_runner.py:77} INFO - Job 164: Subtask upload_file
+[2022-09-28 02:20:46,939] {logging_mixin.py:109} INFO - Running <TaskInstance: local_data_ingestion_gcs_dag.upload_file scheduled__2022-09-27T00:00:00+00:00 [running]> on host 85830348c970
+[2022-09-28 02:20:47,486] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=local_data_ingestion_gcs_dag
+AIRFLOW_CTX_TASK_ID=upload_file
+AIRFLOW_CTX_EXECUTION_DATE=2022-09-27T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-09-27T00:00:00+00:00
+[2022-09-28 02:20:47,511] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2022-09-28 02:20:47,624] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=local_data_ingestion_gcs_dag, task_id=upload_file, execution_date=20220927T000000, start_date=20220928T022046, end_date=20220928T022047
+[2022-09-28 02:20:47,862] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-09-28 02:20:48,221] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
