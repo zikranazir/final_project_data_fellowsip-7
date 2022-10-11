@@ -25,8 +25,8 @@ terraform plan -var="project=<your-gcp-project-id>"
 ```
 terraform apply -var="project=<your-gcp-project-id>"
 ```
-Tadaa...! Your infra has been automatically created.
-7. Delete infra after your work done, to avoid costs on any running services
+7. Tadaa... Your infra has been automatically created!
+8. Delete infra after your work done, to avoid costs on any running services
 ```
 terraform destroy -var="project=<your-gcp-project-id>"
 ```
