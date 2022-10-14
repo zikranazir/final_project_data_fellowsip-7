@@ -1,0 +1,11 @@
+{
+  "namespace": "com.fraud",
+  "type": "record",
+  "name": "fraudKey",
+  "fields": [
+    {
+      "name": "ID",
+      "type": "integer"
+    }
+  ]
+}
