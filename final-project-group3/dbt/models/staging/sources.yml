@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: sources
+    database: data-fellowship-batch-7
+    schema: application_credit_card_record
+    
+    tables:
+      - name: applicant_credit_final
+        identifier: applicant_credit_final

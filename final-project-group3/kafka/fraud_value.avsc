@@ -1,0 +1,27 @@
+{
+  "namespace": "com.fraud",
+  "type": "record",
+  "name": "fraudValue",
+  "fields": [
+    {
+      "name": "ID",
+      "type": "int"
+    },
+    {
+      "name": "AMT_INCOME_TOTAL",
+      "type": "float"
+    },
+    {
+      "name": "Age",
+      "type": "int"
+    },
+    {
+      "name": "YEAR_WORKED",
+      "type": "int"
+    },
+    {
+      "name": "CNT_FAM_MEMBERS",
+      "type": "int"
+    }
+  ]
+}
